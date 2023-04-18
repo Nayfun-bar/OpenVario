@@ -7,6 +7,8 @@ Adafruit_SSD1306 display(4);
 
 #include <BMP280_DEV.h>
 
+//everything is connected using the I2C communication protocol
+
 unsigned long CurrentTime;
 unsigned long PreviousDerivativeTime;
 float PreviousHeight;
